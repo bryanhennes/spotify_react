@@ -16,8 +16,9 @@ const Menu = () => (
 const Navbar = () => {
 
     const [toggleMenu, setToggle] = useState(false);
-    return (
 
+    
+    return (
         //BEM css naming convention
         <div className="sum__navbar">
             <div className="sum__navbar-links">
