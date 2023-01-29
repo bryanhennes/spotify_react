@@ -1,4 +1,118 @@
-.sum__header-content,
-.sum__header-content button {
+
+.sum__header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sum__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-left: 5rem;
     font-family: var(--font-family);
+}
+
+.sum__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.sum__header-content__login {
+    width: 25%;
+    margin: 2rem 0 1rem;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.sum__header-content__login button {
+    padding: 0.5rem 1rem;
+    left: 1153px;
+    top: 55px;
+    color: #fff;
+    background: #1DB954;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.sum__header-content__loggedIn {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    
+    font-family: var(--font-family);
+}
+
+.sum__header-content__show {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.sum__header-content__show-name {
+    margin-left: 2rem;
+}
+
+.sum__header-content__show img{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1050px) {
+    .sum__header {
+        flex-direction: column;
+    }
+
+    .sum__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sum__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .sum__header-content__login button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .sum__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .sum__header-content__login {
+        margin-left: 0rem;
+    }
+
+    .sum__header-content__login button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
 }

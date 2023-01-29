@@ -1,0 +1,68 @@
+.sum__features-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: var(--font-family);
+}
+
+.sum__features-content button {
+    padding: 0.5rem 1rem;
+    left: 1153px;
+    top: 55px;
+    color: #fff;
+    background: #000000;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.sum__features-content__show {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-left: 5rem;
+    margin-bottom: 1rem ;
+    flex-direction: row;
+    font-family: var(--font-family);
+}
+
+.sum__features-content__loggedOut {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+}
+
+.sum__features-content__loggedIn {
+    margin-left: 1rem;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+}
+
+.sum__features-content__show-name {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.sum__features-content__show img{
+    width: 100px;
+    height: 100px;
+}
+
+.sum__features-content__choice {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    align-self: center;
+    flex-direction: row;
+    font-family: var(--font-family);
+}

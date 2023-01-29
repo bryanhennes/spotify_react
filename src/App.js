@@ -10,14 +10,16 @@ const App = () => {
             <div className="gradient__bg">
                 <Navbar />
                 <Header />
-            </div>
-            <Brand />
+                <Features />
+            
+            {/*<Brand />
             <WhatSum />
-            <Features />
             <Possibility />
             <CTA />
-            <Blog />
+            <Blog />*/}
             <Footer />
+            
+        </div>
         </div>
     )
 }
